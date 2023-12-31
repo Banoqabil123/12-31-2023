@@ -1,0 +1,25 @@
+ void main() {
+   printuserdetails("Hasnain","flutter");
+   printusernamedetailsnamed(
+   name:"hasnain",
+     classname:"flutter"
+   
+   );
+   
+     printusernamedetailsnamed(
+    name:"Nehal",
+      classname:"Dart"
+       );
+     printusernamedetailsnamed(
+    name:"Nehal1",
+      classname:"Dart1"
+       );
+    
+   
+ }
+void printuserdetails(String name, String classname){
+  print("Name:$name, Class:$classname");
+}
+void printusernamedetailsnamed({required String name,required String classname}){
+  print("Name:$name, Class:$classname");
+}
